@@ -88,7 +88,19 @@ p {
     margin: auto;
     border-radius: 100px;
     outline-style: auto;
-    outline-color: white;
+    outline-color: rgb(0, 0, 0);
+}
+
+.box:hover {
+    height: 550px;
+    width: 550px;
+    align-self: auto;
+    padding: auto;
+    margin: auto;
+    border-radius: 100px;
+    outline-style: auto;
+    outline-color: rgb(32, 191, 219);
+    box-shadow: inset;
 }
 
 p {
@@ -127,19 +139,14 @@ label {
 }
 
 img {
-    outline-color: rgb(255, 255, 255);
-    outline-style: auto;
-    width: 350px;
-    height: 350px;
+    border-radius: 105px;
+    height: inherit;
+    width: inherit;
 }
 
 img:hover {
-    outline-color: #333333;
-    outline-style: auto;
-    box-shadow: turquoise 6px 6px 6px 6px;
-    text-shadow: #011627;
-    width: 400px;
-    height: 400px;
+    height: inherit;
+    width: inherit;
 }
 
 text {
