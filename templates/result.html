@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="static\css\style.css" type="text/css">
+</head>
+
+<body style="text-align: center; align-content: center; vertical-align: auto;">
+    <h1>Face Recognition</h1>
+
+    <img src={{user_image}}>
+
+    <div class='res'>
+        {% if res == 0 %}
+        <text>New User</text> {% elif res == 1 %}
+        <text>Access Granted</text> {% elif res == 2 %}
+        <text>Access Denied</text> {%endif%}
+    </div>
+    <text style="vertical-align: text-bottom;">Time Taken - <b>{{ time }}</b></text>
+</body>
+
+</html>

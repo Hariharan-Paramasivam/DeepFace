@@ -1,0 +1,151 @@
+body {
+    background-color: #011627;
+    color: white;
+    align-self: auto;
+    padding: auto;
+    margin: auto;
+}
+
+sub {
+    font-size: small;
+    padding-left: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #2ec4b6;
+    padding: 2px 2px 2px 2px;
+    margin: 1cm 1cm 1cm 1cm;
+    font-weight: bolder;
+    font-size: 75px;
+}
+
+h2 {
+    margin: 1cm 1cm 1cm 0.5m;
+    padding: auto;
+    font-size: 34px;
+}
+
+form {
+    text-align: center;
+    padding: auto;
+    margin: 1cm auto auto auto;
+}
+
+input {
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: 5px 15px 5px 15px;
+    border-radius: 75px;
+    margin: 1cm 1cm 1cm 1cm;
+    font-size: larger;
+    color: #e71d36;
+}
+
+input:hover {
+    outline-color: white;
+    outline-style: auto;
+}
+
+button {
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    border-radius: 75px;
+    margin: 1cm 1cm 1cm 1cm;
+    font-size: larger;
+    background-color: rgb(109, 212, 109);
+    font-size: xx-large;
+}
+
+button:hover {
+    text-align: center;
+    background-origin: padding-box;
+    background-color: rgb(60, 145, 60);
+    outline-style: auto;
+    outline-color: rgb(170, 228, 222);
+    outline-offset: 3px;
+    border-radius: 100px;
+    font-stretch: ultra-expanded;
+}
+
+p {
+    color: #333333;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5625;
+    margin-bottom: 15px;
+}
+
+.box {
+    text-align: center;
+    background-color: turquoise;
+    height: 500px;
+    width: 500px;
+    align-self: auto;
+    padding: auto;
+    margin: auto;
+    border-radius: 100px;
+    outline-style: auto;
+    outline-color: white;
+}
+
+p {
+    color: whitesmoke;
+    opacity: 90%;
+    padding: 10px;
+    font-weight: normal;
+    text-align: justify;
+    margin: 2px;
+    margin-left: 50px;
+}
+
+label {
+    padding: 2px 2px 2px 2px;
+    border-radius: 100px;
+}
+
+.boxs {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.des {
+    padding: 10px;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    border-radius: 20px;
+}
+
+.res {
+    margin: 1cm;
+    text-align: center;
+    color: #e71d36;
+    font-size: larger;
+    padding: auto;
+}
+
+img {
+    outline-color: rgb(255, 255, 255);
+    outline-style: auto;
+    width: 350px;
+    height: 350px;
+}
+
+img:hover {
+    outline-color: #333333;
+    outline-style: auto;
+    box-shadow: turquoise 6px 6px 6px 6px;
+    text-shadow: #011627;
+    width: 400px;
+    height: 400px;
+}
+
+text {
+    font-size: larger;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 1cm;
+    padding: auto;
+}
