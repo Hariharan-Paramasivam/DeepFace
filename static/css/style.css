@@ -92,8 +92,6 @@ p {
 }
 
 .box:hover {
-    height: 550px;
-    width: 550px;
     align-self: auto;
     padding: auto;
     margin: auto;
